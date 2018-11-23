@@ -86,14 +86,14 @@ def test():
     テスト用の関数
     """
     
-    img1 = np.zeros((100,100))
-    img2 = np.zeros((100,100))
+    # img1 = np.zeros((100,100))
+    # img2 = np.zeros((100,100))
     
-    img1[:30] = 255
-    img2[70:] = 255
+    # img1[:30] = 255
+    # img2[70:] = 255
     
-    hlacs1 = hlac(img1)
-    hlacs2 = hlac(img2)
+    # hlacs1 = hlac(img1)
+    # hlacs2 = hlac(img2)
     
 #    print(hlacs1)
 #    print(hlacs2)
@@ -105,7 +105,7 @@ def test():
     
     hlacs3 = hlac(img3)
     
-#    print(hlacs3)
+    print(hlacs3)
 
 if __name__ == "__main__":
     test()
